@@ -13,3 +13,7 @@ func New(initial int) *Counter {
 func (c *Counter) Get() int {
 	return c.n
 }
+
+func (c *Counter) Set(v int) {
+	c.n = v
+}
